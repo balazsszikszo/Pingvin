@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('pecs.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 947px;
+}
+
+nav {
+    background-color: gainsboro;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    color: #1e1e1e;
+    padding-left: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+ul li a:hover {
+    color:red
+}
+
+div.program {
+    margin-left: 62px;
+    margin-top: 300px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    float: left;
+    width: 400px;
+    background-color: white;
+  }
+  
+  div.program:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.8);
+    font-weight: bold;
+    color: gold;
+  }
+  
+  div.program img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  img{
+    border-radius: 15px;
+  }

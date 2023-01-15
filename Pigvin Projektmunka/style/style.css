@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('pecs.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 947px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+p {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.vers {
+    box-shadow: 5px 5px 8px black;
+    border-radius: 20px;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 50px auto;
+    padding: 10px;
+    text-indent: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.szoveg {
+    padding: 5px;
+}
+
+.szerzo {
+    padding-top: 30px;
+    float: right;
+    font-size: 20px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #1e1e1e;
+    text-align: right;
+    padding-top: 260px;
+    padding-right: 10px;
+}
+
+nav {
+    background-color: gainsboro;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    color: #1e1e1e;
+    padding-left: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+ul li a:hover {
+    color:red
+}
+
+.container {
+    box-shadow: 5px 5px 8px black;
+    width: 1200px;
+    height: 750px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 50px auto;
+    padding: 10px;
+}
+
+img {
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+}
+
+table {
+    padding-top: 20px;
+    width: 55%;
+    margin: 10px 10px;
+}
+
+td {
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 5px;
+    vertical-align: top;
+}
+
+a {
+    color: red;
+    font-variant: small-caps;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+    font-weight: bold;
+}

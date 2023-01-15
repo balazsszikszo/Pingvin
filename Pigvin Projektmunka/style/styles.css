@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('pecs.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 947px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+p {
+    padding-left: 20px;
+    font-size: 16px;
+}
+nav {
+    background-color: gainsboro;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    color: #1e1e1e;
+    padding-left: 10px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+ul li a:hover {
+    color:red
+}
+
+.container {
+    box-shadow: 5px 5px 8px black;
+    width: 1200px;
+    height: 750px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 50px auto;
+    padding: 10px;
+}
+
+table {
+    padding-top: 20px;
+    width: 55%;
+    margin: 10px 10px;
+}
+
+td {
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 5px;
+    vertical-align: top;
+}
+
+.link {
+    text-decoration: none;
+    color: red;
+    font-variant: small-caps;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.link:hover {
+    color: darkblue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 15px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+li {
+    padding-left: 10px;
+
+}
+
+.container2 {
+    box-shadow: 5px 5px 8px black;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.container3 {
+    box-shadow: 5px 5px 8px black;
+    width: 400px;
+    height: 165px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.container4 {
+    box-shadow: 5px 5px 8px black;
+    width: 500px;
+    height: 275px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 50px auto;
+    padding: 10px;
+}
